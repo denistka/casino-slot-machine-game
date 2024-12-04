@@ -72,7 +72,7 @@ export class Background {
             const ratio = i / 15;
             const color = this.interpolateColor(SLOT_CONFIG.COLORS.BACKGROUND, 0x1a2634, ratio);
             gradient.beginFill(color, 1 - ratio * 0.5);
-            gradient.drawRect(0, height * (ratio / 15), width, height / 15 + 1);
+            gradient.drawRect(0, 0, width, height);
             gradient.endFill();
         }
 

@@ -24,15 +24,15 @@ A modern, responsive casino slot machine game built with PixiJS, featuring smoot
 
 1. Install dependencies:
 ```bash
-npm install
+pnpm install
 ```
 
 2. Start development server:
 ```bash
-npm run dev
+pnpm run start
 ```
 
 3. Build for production:
 ```bash
-npm run build
+pnpm run build
 ```
